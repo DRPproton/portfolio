@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Data Scientist Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter">
+    <nav class="bg-gradient-to-r from-purple-600 to-blue-500 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold">DataFolio</a>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+
+                <!-- Desktop menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-purple-200 transition duration-300">Home</a>
+                    <a href="about.html" class="hover:text-purple-200 transition duration-300">About</a>
+                    <a href="projects.html" class="hover:text-purple-200 transition duration-300 font-bold">Projects</a>
+                    <a href="skills.html" class="hover:text-purple-200 transition duration-300">Skills</a>
+                    <a href="contact.html" class="hover:text-purple-200 transition duration-300">Contact</a>
+                </div>
+            </div>
+
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-3 space-y-2">
+                <a href="index.html" class="block py-2 hover:bg-purple-700 px-3 rounded bg-purple-700">Home</a>
+                <a href="about.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">About</a>
+                <a href="projects.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Projects</a>
+                <a href="skills.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Skills</a>
+                <a href="contact.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Projects Hero Section -->
+<section class="bg-gradient-to-r from-purple-600 to-blue-500 text-white py-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">My Projects</h1>
+            <p class="text-xl">A showcase of my data science and analytics engineering work</p>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Filter -->
+<section class="py-8 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center gap-4">
+            <button class="bg-white text-gray-700 hover:bg-purple-100 px-6 py-2 rounded-full font-medium transition duration-300">Data Science</button>
+            <button class="bg-white text-gray-700 hover:bg-purple-100 px-6 py-2 rounded-full font-medium transition duration-300">Machine Learning</button>
+            <button class="bg-white text-gray-700 hover:bg-purple-100 px-6 py-2 rounded-full font-medium transition duration-300">Data Visualization</button>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Grid -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <div class="h-56 overflow-hidden">
+                    <img src="/images/cirrhosis.png" alt="Prediction of Cirrhosis Outcomes API" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Prediction of Cirrhosis Outcomes API</h3>
+                    <p class="text-gray-600 mb-4">Predicts the probability of a patient&#x27;s death, censored or censored due to liver transplantation.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Python</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Scikit-learn</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Flask</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Django</span>
+                        
+                    </div>
+                    <div class="flex space-x-4 mt-4">
+                        
+                        <a href="https://github.com/DRPproton/Multi-Class-Prediction-of-Cirrhosis-Outcomes" class="text-gray-700 hover:text-gray-900 flex items-center" target="_blank">
+                            <i class="fab fa-github mr-2"></i> Code
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <div class="h-56 overflow-hidden">
+                    <img src="/images/butterfly_classifier.png" alt="Butterfly Classifier API Tool" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Butterfly Classifier API Tool</h3>
+                    <p class="text-gray-600 mb-4">This Butterfly Classifier API was created for my daughter, who loves these colorful insects. I would like to use the API on a web or mobile app.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Python</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Tensor-flow lite</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">AWS</span>
+                        
+                    </div>
+                    <div class="flex space-x-4 mt-4">
+                        
+                        <a href="https://github.com/DRPproton/butterfly-classifier" class="text-gray-700 hover:text-gray-900 flex items-center" target="_blank">
+                            <i class="fab fa-github mr-2"></i> Code
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <div class="h-56 overflow-hidden">
+                    <img src="/images/crime-portland.png" alt="Pipeline for Consolidation of Crime Data in Oregon" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Pipeline for Consolidation of Crime Data in Oregon</h3>
+                    <p class="text-gray-600 mb-4">Consolidating crime data into a single, well-managed data warehouse, to preserve valuable data for future generations.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Python</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Docker</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Terraform</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Mage-AI</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Spark</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">GCP</span>
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">BigQuery</span>
+                        
+                    </div>
+                    <div class="flex space-x-4 mt-4">
+                        
+                        <a href="https://github.com/DRPproton/data-engineering-crime-portland" class="text-gray-700 hover:text-gray-900 flex items-center" target="_blank">
+                            <i class="fab fa-github mr-2"></i> Code
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+                <div class="h-56 overflow-hidden">
+                    <img src="/images/churn_tableau.png" alt="Churn Executive Dashboard" class="w-full h-full object-cover transition duration-300 hover:scale-105">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Churn Executive Dashboard</h3>
+                    <p class="text-gray-600 mb-4">The purpose and function of the dashboard is to show the Executive Board the insights found in the analysis.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">Tableau</span>
+                        
+                    </div>
+                    <div class="flex space-x-4 mt-4">
+                        
+                        
+                        <a href="https://public.tableau.com/app/profile/dashel.ruiz.perez/viz/D210_PA_16753783232310/ExecutiveDashboard" class="text-blue-600 hover:text-blue-800 flex items-center" target="_blank">
+                            <i class="fas fa-external-link-alt mr-2"></i> Live Demo
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">Interested in working together?</h2>
+        <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+        </p>
+        <a href="contact.html" class="bg-gradient-to-r from-purple-600 to-blue-500 text-white hover:from-purple-700 hover:to-blue-600 transition duration-300 font-medium py-3 px-8 rounded-lg inline-block">
+            Let's Talk
+        </a>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">DataFolio</h3>
+                    <p class="text-gray-400 mt-1">Data Science & Analytics Portfolio</p>
+                </div>
+
+                <div class="flex space-x-4">
+                    <a href="https://github.com/DRPproton" class="text-gray-400 hover:text-white transition duration-300" target="_blank">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/" class="text-gray-400 hover:text-white transition duration-300" target="_blank">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2025 DataFolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    
+</body>
+</html>

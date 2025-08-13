@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Data Scientist Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-purple-600 to-blue-500 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold">DataFolio</a>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+
+                <!-- Desktop menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-purple-200 transition duration-300">Home</a>
+                    <a href="about.html" class="hover:text-purple-200 transition duration-300">About</a>
+                    <a href="projects.html" class="hover:text-purple-200 transition duration-300">Projects</a>
+                    <a href="skills.html" class="hover:text-purple-200 transition duration-300">Skills</a>
+                    <a href="contact.html" class="hover:text-purple-200 transition duration-300 font-bold">Contact</a>
+                </div>
+            </div>
+
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-3 space-y-2">
+                <a href="index.html" class="block py-2 hover:bg-purple-700 px-3 rounded bg-purple-700">Home</a>
+                <a href="about.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">About</a>
+                <a href="projects.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Projects</a>
+                <a href="skills.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Skills</a>
+                <a href="contact.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- Contact Hero Section -->
+<section class="bg-gradient-to-r from-purple-600 to-blue-500 text-white py-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Get In Touch</h1>
+            <p class="text-xl">Let's discuss how we can work together</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form Section -->
+<section class="py-16">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            <!-- Contact Info -->
+            <div>
+                <h2 class="text-3xl font-bold mb-6">Contact Information</h2>
+                <p class="text-gray-600 mb-8">
+                    Feel free to reach out if you're looking for a data scientist for your project, have a question, or just want to connect.
+                </p>
+                
+                <div class="space-y-6">
+                    <!-- Email -->
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-envelope text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold">Email</h3>
+                            <p class="text-gray-600">dashel.ruiz@protonmail.com</p>
+                            <p class="text-sm text-gray-500 mt-1">Send me an email anytime!</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Phone -->
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-phone-alt text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold">Phone</h3>
+                            <p class="text-gray-600">+1 (971) 268-8622</p>
+                            <p class="text-sm text-gray-500 mt-1">Monday to Friday, 9AM to 5PM PST</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Location -->
+                    <div class="flex items-start">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-green-600"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold">Location</h3>
+                            <p class="text-gray-600">Portland, OR</p>
+                            <p class="text-sm text-gray-500 mt-1">Available for remote work worldwide</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="mt-10">
+                    <h3 class="text-lg font-bold mb-4">Connect With Me</h3>
+                    <div class="flex space-x-4 ml-6">
+                        <a href="https://github.com/DRPproton" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200 transition duration-300" target="_blank">
+                            <i class="fab fa-github text-gray-700"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition duration-300" target="_blank">
+                            <i class="fab fa-linkedin-in text-blue-700"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="bg-white rounded-xl shadow-md p-8">
+                <h2 class="text-2xl font-bold mb-6">Send Me a Message</h2>
+                
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- IMPORTANT: Replace with your own access key -->
+                    <input type="hidden" name="access_key" value="2d9f900d-3b97-4640-bb49-a19a30cbfbdc">
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                        <input type="text" id="subject" name="subject" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition">
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 text-white font-medium py-3 px-4 rounded-lg transition duration-300">
+                        Send Message
+                    </button>
+                    <div id="form-result" class="mt-4 text-center"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Map Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="h-96">
+                    <iframe width="100%" height="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=-123.0077362060547%2C45.39603920754866%2C-122.47283935546876%2C45.68891423419542&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=11/45.5427/-122.7403">View Larger Map</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-16">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">Frequently Asked Questions</h2>
+            
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-3">What services do you offer?</h3>
+                    <p class="text-gray-600">
+                        I offer a range of data science and analytics services including machine learning model development, data analysis, data visualization, and custom dashboard creation. I can also help with data strategy and consulting.
+                    </p>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-3">Do you work remotely?</h3>
+                    <p class="text-gray-600">
+                        Yes, I work remotely with clients from all over the world. I'm comfortable with different time zones and can adapt to your team's schedule for meetings and collaboration.
+                    </p>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-3">What is your typical project process?</h3>
+                    <p class="text-gray-600">
+                        My process typically involves an initial consultation to understand your needs, followed by data exploration and analysis, model development, testing, and deployment. I maintain clear communication throughout and provide regular updates on progress.
+                    </p>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-3">How do you handle data privacy and security?</h3>
+                    <p class="text-gray-600">
+                        I take data privacy and security very seriously. I follow industry best practices for data protection, use secure channels for data transfer, and can sign NDAs as needed. I'm also familiar with GDPR and other data protection regulations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">DataFolio</h3>
+                    <p class="text-gray-400 mt-1">Data Science & Analytics Portfolio</p>
+                </div>
+
+                <div class="flex space-x-4">
+                    <a href="https://github.com/DRPproton" class="text-gray-400 hover:text-white transition duration-300" target="_blank">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/" class="text-gray-400 hover:text-white transition duration-300" target="_blank">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2025 DataFolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Contact form submission using Web3Forms
+        const form = document.getElementById('contact-form');
+        const result = document.getElementById('form-result');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+
+            result.innerHTML = "Sending..."
+            result.className = "mt-4 text-center text-yellow-600";
+
+            fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: json
+                })
+                .then(async (response) => {
+                    let jsonResponse = await response.json();
+                    if (response.status == 200) {
+                        result.innerHTML = jsonResponse.message;
+                        result.className = "mt-4 text-center text-green-600";
+                    } else {
+                        console.log(response);
+                        result.innerHTML = jsonResponse.message;
+                        result.className = "mt-4 text-center text-red-600";
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                    result.className = "mt-4 text-center text-red-600";
+                })
+                .then(function() {
+                    form.reset();
+                    setTimeout(() => { result.innerHTML = ''; }, 5000);
+                });
+        });
+    </script>
+
+    
+</body>
+</html>

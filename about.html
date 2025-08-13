@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-inter">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-purple-600 to-blue-500 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold">DataFolio</a>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+
+                <!-- Desktop menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-purple-200 transition duration-300">Home</a>
+                    <a href="about.html" class="hover:text-purple-200 transition duration-300 font-bold">About</a>
+                    <a href="projects.html" class="hover:text-purple-200 transition duration-300">Projects</a>
+                    <a href="skills.html" class="hover:text-purple-200 transition duration-300">Skills</a>
+                    <a href="contact.html" class="hover:text-purple-200 transition duration-300">Contact</a>
+                </div>
+            </div>
+
+            <!-- Mobile menu -->
+            <div id="mobile-menu" class="md:hidden hidden mt-3 space-y-2">
+                <a href="index.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Home</a>
+                <a href="about.html" class="block py-2 hover:bg-purple-700 px-3 rounded bg-purple-700">About</a>
+                <a href="projects.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Projects</a>
+                <a href="skills.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Skills</a>
+                <a href="contact.html" class="block py-2 hover:bg-purple-700 px-3 rounded ">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        
+<!-- About Hero Section -->
+<section class="bg-gradient-to-r from-purple-600 to-blue-500 text-white py-8">
+    <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">About Me</h1>
+            <p class="text-xl">Data Analytics Engineer with a passion for solving complex problems</p>
+        </div>
+    </div>
+</section>
+
+<!-- Main Content -->
+<section class="py-16">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <!-- Left Column - Personal Info -->
+            <div class="lg:col-span-1">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6">
+                        <div class="flex justify-center mb-6">
+                            <div class="w-40 h-40 rounded-full overflow-hidden border-4 border-purple-200">
+                                <img src="images/MomentCam.jpeg" alt="Profile" class="w-full h-full object-cover">
+                            </div>
+                        </div>
+                        
+                        <h2 class="text-2xl font-bold text-center mb-4">Dashel Ruiz Perez</h2>
+                        <p class="text-purple-600 text-center mb-6">Data Analyst - ML Engineer - Software Engineer</p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
+                                    <i class="fas fa-envelope text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Email</p>
+                                    <p class="font-medium">dashel.ruiz@protonmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
+                                    <i class="fas fa-map-marker-alt text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Location</p>
+                                    <p class="font-medium">Portland, OR</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
+                                    <i class="fas fa-briefcase text-purple-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Experience</p>
+                                    <p class="font-medium">5+ Years</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 flex justify-center space-x-4">
+                            <a href="https://github.com/DRPproton" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200 transition duration-300" target="_blank">
+                                <i class="fab fa-github text-gray-700"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center hover:bg-blue-200 transition duration-300" target="_blank">
+                                <i class="fab fa-linkedin-in text-blue-700"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <a href="#" class="block w-full bg-purple-600 hover:bg-purple-700 text-white text-center py-3 rounded-lg transition duration-300">
+                                Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column - Bio, Education, Experience -->
+            <div class="lg:col-span-2">
+                <!-- Bio Section -->
+                <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-bold mb-4">Biography</h2>
+                    <div class="space-y-4 text-gray-700">
+                        <p>
+                            I am a passionate Data Scientist and Analytics Engineer with over 5 years of experience in transforming complex data into actionable insights. My expertise lies in developing machine learning models, statistical analysis, and creating interactive data visualizations.
+                        </p>
+                        <p>
+                            With a background in both computer science and statistics, I bring a unique perspective to data problems. I've worked across various industries including finance, healthcare, and e-commerce, helping organizations leverage their data to make informed decisions.
+                        </p>
+                        <p>
+                            My approach combines technical expertise with strong communication skills, allowing me to translate complex technical concepts into clear insights for stakeholders at all levels.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Education Section -->
+                <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+                    <h2 class="text-2xl font-bold mb-6">Education</h2>
+                    
+                    <div class="space-y-6">
+                        
+                        <div class="flex">
+                            <div class="mr-4 flex-shrink-0">
+                                <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+                                    <i class="fas fa-graduation-cap text-purple-600"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">M.S. in Data Analytics</h3>
+                                <p class="text-purple-600">Western Governors University</p>
+                                <p class="text-gray-500 text-sm mt-1">2022-2023</p>
+                                <p class="text-gray-700 mt-2">Specialized in Data Analytics, Machine learning and statistical analysis.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="mr-4 flex-shrink-0">
+                                <div class="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+                                    <i class="fas fa-graduation-cap text-purple-600"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">B.S. in Computer Science</h3>
+                                <p class="text-purple-600">Western Governors University</p>
+                                <p class="text-gray-500 text-sm mt-1">2019-2021</p>
+                                <p class="text-gray-700 mt-2">Focus on algorithms and software engineering.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- Experience Section -->
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h2 class="text-2xl font-bold mb-6">Work Experience</h2>
+                    
+                    <div class="space-y-6">
+                        
+                        <div class="flex">
+                            <div class="mr-4 flex-shrink-0">
+                                <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <i class="fas fa-briefcase text-blue-600"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Lead Instructor</h3>
+                                <p class="text-blue-600">ThriveDX</p>
+                                <p class="text-gray-500 text-sm mt-1">May 2022 - Jan 2025</p>
+                                <p class="text-gray-700 mt-2">Instructor - Software Development Program: </p> 
+                                <ul class="list-disc list-inside text-gray-700">
+                                    <li class="ml-4">San Diego State University Global Campus</li>
+                                    <li class="ml-4">California State University Long Beach</li>
+                                    <li class="ml-4">North Carolina State University</li>
+                                    <li class="ml-4">NYU School of Professional Studies</li>
+                                </ul>
+                                <p class="text-gray-700 mt-4">Adjunt Instructor Cybersecurity Professional Program</p>
+                                <ul class="list-disc list-inside text-gray-700">
+                                    <li class="ml-4">State University Long Beach</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="mr-4 flex-shrink-0">
+                                <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <i class="fas fa-briefcase text-blue-600"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Software Engineer</h3>
+                                <p class="text-blue-600">Microchip Technology Inc.</p>
+                                <p class="text-gray-500 text-sm mt-1">Sep 2021 - Jan 2023</p>
+                                <p class="text-gray-700 mt-2">Skills: Interpersonal Skills, Data Integrity and +12 other skills.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="mr-4 flex-shrink-0">
+                                <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <i class="fas fa-briefcase text-blue-600"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Yield Engineer</h3>
+                                <p class="text-blue-600">Microchip Technology Inc.</p>
+                                <p class="text-gray-500 text-sm mt-1">Feb 2021 - Sep 2021</p>
+                                <p class="text-gray-700 mt-2">Internship. Skills: Interpersonal Skills, Data Integrity and +12 other skills.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="mr-4 flex-shrink-0">
+                                <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <i class="fas fa-briefcase text-blue-600"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Process Engineer Technician Thin Film/CMP</h3>
+                                <p class="text-blue-600">Microchip Technology Inc.</p>
+                                <p class="text-gray-500 text-sm mt-1">Nov 2019 - Jan 2021</p>
+                                <p class="text-gray-700 mt-2">Skills: Interpersonal Skills, Data Integrity and +3 other skills.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">DataFolio</h3>
+                    <p class="text-gray-400 mt-1">Data Science & Analytics Portfolio</p>
+                </div>
+
+                <div class="flex space-x-4">
+                    <a href="https://github.com/DRPproton" class="text-gray-400 hover:text-white transition duration-300" target="_blank">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dashel-ruiz-perez-2b036172/" class="text-gray-400 hover:text-white transition duration-300" target="_blank">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center text-gray-400 text-sm">
+                <p>&copy; 2025 DataFolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    
+</body>
+</html>
